@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PJ/Welcome</title>
+    <style>
+        @font-face {
+            font-family: 'Monocraft';
+            src: url('https://cdn.jsdelivr.net/gh/IdreesInc/Monocraft@main/dist/Monocraft-ttf/Monocraft.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Monocraft', monospace;
+            background-color: red;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .intro-container {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+            width: 1200px;
+            max-width: 95%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .box-welcome {
+            border: 5px solid black;
+            padding: 40px 40px;
+            background-color: white;
+            color: black;
+            font-size: 1.8rem;
+            text-align: center;
+            box-shadow: -5px 5px rgb(34, 34, 34);
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 800px;
+            transform: translateX(100vw);
+            animation: moveBox1 3.2s cubic-bezier(0.1, 0.9, 0.2, 1) forwards;
+        }
+
+        .box-name {
+            border: 5px solid black;
+            padding: 20px 30px;
+            background-color: white;
+            color: black;
+            font-size: 1.4rem;
+            text-align: center;
+            box-shadow: -5px 5px rgb(34, 34, 34);
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 800px;
+            transform: translateX(-100vw);
+            animation: moveBox2 3.2s cubic-bezier(0.1, 0.9, 0.2, 1) forwards;
+        }
+
+        .fade-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            opacity: 0;
+            pointer-events: none;
+            animation: fadeToBlack 0.8s ease-in forwards;
+            animation-delay: 2.2s;
+        }
+
+        @keyframes fadeToBlack {
+            to { opacity: 1; }
+        }
+
+        @keyframes moveBox1 {
+            0% { transform: translateX(100vw); box-shadow: -5px 5px rgb(34, 34, 34); }
+            8% { transform: translateX(0); box-shadow: -5px 5px rgb(34, 34, 34); }
+            90% { transform: translateX(0); box-shadow: -5px 5px rgb(34, 34, 34); }
+            100% { transform: translateX(-100vw); box-shadow: -5px 5px rgb(34, 34, 34); }
+        }
+
+        @keyframes moveBox2 {
+            0% { transform: translateX(-100vw); box-shadow: -5px 5px rgb(34, 34, 34); }
+            8% { transform: translateX(0); box-shadow: -5px 5px rgb(34, 34, 34); }
+            90% { transform: translateX(0); box-shadow: -5px 5px rgb(34, 34, 34); }
+            100% { transform: translateX(100vw); box-shadow: 5px 5px rgb(34, 34, 34); }
+        }
+
+        @media (max-width: 1250px) {
+            .intro-container {
+                width: 95%;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .box-welcome {
+                font-size: 1.5rem;
+                padding: 30px 25px;
+            }
+            .box-name {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .intro-container {
+                width: 90%;
+                gap: 15px;
+            }
+            .box-welcome {
+                font-size: 1.2rem;
+                padding: 24px 15px;
+                border-width: 5px;
+                box-shadow: -3px 3px rgb(34, 34, 34);
+            }
+            .box-name {
+                font-size: 1rem;
+                padding: 12px 15px;
+                border-width: 5px;
+                box-shadow: -3px 3px rgb(34, 34, 34);
+            }
+            @keyframes moveBox1 {
+                0% { transform: translateX(100vw); box-shadow: -3px 3px rgb(34, 34, 34); }
+                8% { transform: translateX(0); box-shadow: -3px 3px rgb(34, 34, 34); }
+                90% { transform: translateX(0); box-shadow: -3px 3px rgb(34, 34, 34); }
+                100% { transform: translateX(-100vw); box-shadow: -3px 3px rgb(34, 34, 34); }
+            }
+            @keyframes moveBox2 {
+                0% { transform: translateX(-100vw); box-shadow: -3px 3px rgb(34, 34, 34); }
+                8% { transform: translateX(0); box-shadow: -3px 3px rgb(34, 34, 34); }
+                90% { transform: translateX(0); box-shadow: -3px 3px rgb(34, 34, 34); }
+                100% { transform: translateX(100vw); box-shadow: 3px 3px rgb(34, 34, 34); }
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="intro-container">
+        <div class="box-welcome">Welcome To My Portfolio</div>
+        <div class="box-name">Prince Jean Leonard N. Mendoza</div>
+    </div>
+
+    <div class="fade-overlay"></div>
+
+    <script>
+        setTimeout(() => {
+            window.location.href = "portfolio.html"; 
+        }, 3000);
+    </script>
+
+</body>
+</html>

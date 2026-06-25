@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PJ/Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        @font-face {
+            font-family: 'Monocraft';
+            src: url('https://cdn.jsdelivr.net/gh/IdreesInc/Monocraft@main/dist/Monocraft-ttf/Monocraft.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+</head>
+<body>
+    
+    <!-- <nav>
+        <div id="nav-div">
+            <a id="logo" class="left-nav">/PJ/Portfolio</a>
+            <a class="right-nav" href="#home">Home</a>
+            <a class="right-nav" href="#about">About</a>
+            <a class="right-nav" href="#certificates">Certificates</a>
+            <a class="right-nav" href="#contacts">Contacts</a>
+        </div>
+    </nav> -->
+
+    <nav>
+        <div id="nav-div">
+            <a id="logo" class="left-nav">/PJ/Portfolio</a>
+            
+            
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <div class="nav-menu-wrapper" style="border: none; background-color: white;">
+                <a style="background-color: white;" class="right-nav" href="#home">Home</a>
+                <a style="background-color: white;" class="right-nav" href="#about">About</a>
+                <a style="background-color: white;" class="right-nav" href="#certificates">Certificates</a>
+                <a style="background-color: white;" class="right-nav" href="#contacts">Contacts</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" style="margin-bottom: 250px; margin: 10px 30px 250px 30px;">
+        <div class="outermost-container">
+            <div id="outer-div">
+                <div id="left-div">
+
+                    <div id="welcome-div">
+                        <h1>Welcome To My Portfolio</h1>
+                    </div>
+
+                    <div id="mid-div">
+                        <img id="profile-pic" src="prince1.jpeg" style="width: 500px; border: 3px solid black; margin-top: 20px; margin-bottom: 20px;">
+                        
+                        <div id="right-div">
+                            <div id="up-righ">
+                                <p class="prof-desc">I love creating minimalist and user-friendly websites.</p>
+                                <div class="prof-desc" style="margin-top: 25px;">
+                                    <p>I don't just create beautiful UIs.</p>
+                                    <p>I also make sure they are functional and error-free.</p>
+                                </div>
+                                
+                                <div id="name-div">
+                                    <h1>Prince Jean Leonard N. Mendoza</h1>
+                                    <h3>Web Developer and Designer</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="low">
+                        <div id="low-left">
+                            <a id="click">Follow me on:</a>
+                            <a href="https://github.com/Prince-Jean" target="_blank" style="color: black;"><i class="fa-lg fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/share/1EeP8SiwgP/" target="_blank" style="color: black;"><i class="fa-lg fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/jean-mendoza-a9822b3b8?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" style="color: black;"><i class="fa-lg fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/princejeannnn" style="color: black;" target="_blank"><i class="fa-lg fa-brands fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@princejeann?_r=1&_t=ZS-97Pj74Aa1mT" style="color: black;" target="_blank"><i class="fa-lg fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: red; border-bottom: 10px solid black; margin-inline: 0; border-top: 10px solid black;" id="about">
+
+        <div id="about-outer-div">
+            <div class="section-title">
+                <h1>ABOUT ME</h1>
+            </div>
+
+            <div id="about-me-desc">
+                <p>Heyy! I'm Prince Jean Leonard N. Mendoza, a college IT student majoring in Web and Mobile Development.</p>
+                <p>I’m an artistic dev who loves designing minimalist, user-friendly, and highly functional websites. I</p>
+                <p>always maximize every bit of knowledge I have to push my limits and create the absolute best output I'm</p>
+                <p>capable of! I’m genuinely addicted to learning and building projects—constantly grinding through the</p>
+                <p>CRUD method to sharpen my skills. I truly believe that consistent learning, paired with mastering the</p>
+                <p>fundamentals, is the ultimate pillar of success, and I live by that belief every day!</p>
+            </div>
+
+            <div id="skill-stack">
+                <div id="skill" onclick="skill()"><h1 id="skill-txt">Skills</h1></div>
+                <div id="stack" onclick="stack()""><h1 id="stack-txt">Tech Stack</h1></div>
+            </div>
+
+            <div id="s-t">
+                <div>
+                    <ul>
+                        <li>Responsive &amp; Adaptive Layout Design</li>
+                        <li>Object-Oriented Programming (OOP) &amp; Design</li>
+                        <li>Troubleshooting &amp; Debugging</li>
+                        <li>Fundamental Syntax Understanding</li>
+                        <li>Systems &amp; Network Fundamentals</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: rgb(61, 61, 61);" id="certificates">
+        <div id="certs-outer-div">
+            <div class="section-title">
+                <h1>CERTIFICATES</h1>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" id="bottom-btn-left1" aria-label="Previous slide">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                
+                <div class="carousel-track-wrapper">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <div class="cert-card">
+                                <div class="cert-placeholder"><img src="OracleJava.jpg" width="450px"></div>
+                                <h3>Oracle Academy Java</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="cert-card">
+                                <div class="cert-placeholder"><img src="Sikaptala.png" width="450px"></div>
+                                <h3>Sikaptala Web Design Participation</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="cert-card">
+                                <div class="cert-placeholder">i'll be adding more...</div>
+                                <h3>I'll be adding more</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="bottom-btns">
+                    <button class="carousel-btn prev-btn" id="bottom-btn-left2" style="display: none;" aria-label="Previous slide">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+
+                    <button class="carousel-btn next-btn" aria-label="Next slide">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="proj-certs">
+                <a href="certs.html" target="_blank">View all my Certificates</a>
+                <a href="certs.html" target="_blank">View all my Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: rgb(141, 74, 26);" class="section-title" id="contacts">
+        <div id="outermost-contact-div">
+            <div class="section-title">
+                <h1>CONTACTS</h1>
+            </div>
+            <div id="inner-contact-div">
+                <div id="contact-left-side">
+                    <div id="contact-left-up">
+                        <h1 class="contact-h1">Let's Connect!</h1>
+                    </div>
+                    <div id="contact-left-mid">
+                        <h3>If you want to collaborate, or have the slightest interest in working with me, reaching me is easy with just a few clicks!</h3>
+                    </div>
+                    <div>
+                        <h1 class="contact-h1-2">Follow Me On:</h1>
+                    </div>
+
+                    <div id="contact-icons">
+                        <a href="https://github.com/Prince-Jean" target="_blank" style="color: black;"><i class="fa-2xl fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/share/1EeP8SiwgP/" target="_blank" style="color: black;"><i class="fa-2xl fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/jean-mendoza-a9822b3b8?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" style="color: black;"><i class="fa-2xl fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/princejeannnn" style="color: black;" target="_blank"><i class="fa-2xl fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@princejeann?_r=1&_t=ZS-97Pj74Aa1mT" style="color: black;" target="_blank"><i class="fa-2xl fa-brands fa-tiktok"></i></a>
+                        <a href="jeanmendoza050707@gmail.com" style="color: black;" target="_blank"><i class="fa-2xl fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div id="contact-right-side">
+                    <div class="contact-container">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="2ff366d9-66c2-4747-b4c9-49d9723da4d4">
+
+                        <label for="name" style="color: black;">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                        <label for="email" style="color: black;">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+                        <label for="message" style="color: black;">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Write something.." style="height:150px" required></textarea>
+
+                        <input type="submit" value="Submit">
+                        <input type="hidden" name="redirect" value="https://my-personal-portfolio-phi-seven.vercel.app/portfolio.html#contacts">
+                    </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <a>Designed & Developed by Prince Jean Leonard N. Mendoza // Available for freelance. &copy; 2026</a>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
