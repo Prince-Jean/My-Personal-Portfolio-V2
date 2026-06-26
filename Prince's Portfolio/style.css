@@ -158,8 +158,9 @@ nav {
 }
 
 .prof-desc:hover {
+    transform: translateY(5px);
     box-shadow: 0 0 rgba(34, 34, 34, 0);
-    background-color: rgba(255, 255, 255, 0.065);
+    background-color: rgba(188, 188, 188);
     color: rgb(23, 23, 23);
 }
 
