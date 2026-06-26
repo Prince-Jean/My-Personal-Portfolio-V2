@@ -30,9 +30,9 @@ function stack() {
     skillBtn.style.zIndex = "0";
 
     skillStackDesc.style.borderColor = "white";
-    skillStackDesc.style.borderRadius = " 8px 0 0 0";
+    // skillStackDesc.style.borderRadius = " 8px 0 0 0";
 
-    skillStackDesc.innerHTML = "<div><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Java</li><li>Python</li><li>Pygame</li></ul></div><div><ul><li>Linux</li></ul></div>";
+    skillStackDesc.innerHTML = '<div id="st"><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Java</li><li>Python</li><li>Pygame</li></ul></div><div><ul><li>Linux</li></ul></div>';
 }
 
 function skill() {
@@ -45,9 +45,9 @@ function skill() {
     skillBtn.style.zIndex = "900";
 
     skillStackDesc.style.borderColor = "black";
-    skillStackDesc.style.borderRadius = " 0 8px 0 0";
+    // skillStackDesc.style.borderRadius = " 0 8px 0 0";
 
-    skillStackDesc.innerHTML = '<div ><ul><li>Responsive &amp; Adaptive Layout Design</li><li>Object-Oriented Programming (OOP) &amp; Design</li><li>Troubleshooting &amp; Debugging</li><li>Fundamental Syntax Understanding</li><li>Systems &amp; Network Fundamentals</li><li>Problem Solving</li></ul></div>';
+    skillStackDesc.innerHTML = '<div><ul><li>Responsive &amp; Adaptive Layout Design</li><li>Object-Oriented Programming (OOP) &amp; Design</li><li>Troubleshooting &amp; Debugging</li><li>Fundamental Syntax Understanding</li><li>Systems &amp; Network Fundamentals</li><li>Problem Solving</li></ul></div>';
 }
 
 // carousel

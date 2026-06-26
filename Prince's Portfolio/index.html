@@ -14,7 +14,7 @@
 
         body {
             font-family: 'Monocraft', monospace;
-            background-color: red;
+            background-color: #010817;
             margin: 0;
             height: 100vh;
             display: flex;
@@ -37,28 +37,30 @@
         }
 
         .box-welcome {
-            border: 5px solid black;
+            border: 2px solid rgb(100, 134, 33);
             padding: 40px 40px;
-            background-color: white;
+            background-color: yellowgreen;
             color: black;
             font-size: 1.8rem;
             text-align: center;
-            box-shadow: -5px 5px rgb(34, 34, 34);
+            box-shadow: 0 5px rgb(100, 134, 33);
             box-sizing: border-box;
             width: 100%;
             max-width: 800px;
             transform: translateX(100vw);
             animation: moveBox1 3.2s cubic-bezier(0.1, 0.9, 0.2, 1) forwards;
+            border-radius: 5px;
         }
 
         .box-name {
-            border: 5px solid black;
+            border: 2px solid rgb(154, 154, 154);
+            border-radius: 5px;
             padding: 20px 30px;
             background-color: white;
             color: black;
             font-size: 1.4rem;
             text-align: center;
-            box-shadow: -5px 5px rgb(34, 34, 34);
+            box-shadow: 0 5px rgb(154, 154, 154);
             box-sizing: border-box;
             width: 100%;
             max-width: 800px;
@@ -84,16 +86,16 @@
         }
 
         @keyframes moveBox1 {
-            0% { transform: translateX(100vw); box-shadow: -5px 5px rgb(34, 34, 34); }
-            8% { transform: translateX(0); box-shadow: -5px 5px rgb(34, 34, 34); }
-            90% { transform: translateX(0); box-shadow: -5px 5px rgb(34, 34, 34); }
-            100% { transform: translateX(-100vw); box-shadow: -5px 5px rgb(34, 34, 34); }
+            0% { transform: translateX(100vw); box-shadow: 0 5px rgb(174, 174, 174); }
+            8% { transform: translateX(0); box-shadow: 0 5px rgb(174, 174, 174); }
+            90% { transform: translateX(0); box-shadow: 0 5px rgb(174, 174, 174); }
+            100% { transform: translateX(-100vw); box-shadow: 0 5px rgb(174, 174, 174); }
         }
 
         @keyframes moveBox2 {
-            0% { transform: translateX(-100vw); box-shadow: -5px 5px rgb(34, 34, 34); }
-            8% { transform: translateX(0); box-shadow: -5px 5px rgb(34, 34, 34); }
-            90% { transform: translateX(0); box-shadow: -5px 5px rgb(34, 34, 34); }
+            0% { transform: translateX(-100vw); box-shadow: 0 5px rgb(174, 174, 174); }
+            8% { transform: translateX(0); box-shadow: 0 5px rgb(174, 174, 174); }
+            90% { transform: translateX(0); box-shadow: 0 5px rgb(174, 174, 174); }
             100% { transform: translateX(100vw); box-shadow: 5px 5px rgb(34, 34, 34); }
         }
 
