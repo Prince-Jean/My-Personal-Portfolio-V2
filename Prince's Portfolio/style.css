@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 html {
@@ -147,18 +148,19 @@ nav {
 
 .prof-desc {
     margin-top: 20px;
-    border: 1px solid rgb(174, 174, 174);
+    background-color: white;
     border-radius: 5px;
     padding: 15px;
     margin-left: 20px;
     transition: 300ms;
-    color: white;
+    color: black;
+    box-shadow: 0 5px rgb(174, 174, 174); 
 }
 
 .prof-desc:hover {
     box-shadow: 0 0 rgba(34, 34, 34, 0);
     background-color: rgba(255, 255, 255, 0.065);
-    color: white;
+    color: rgb(23, 23, 23);
 }
 
 #low {
