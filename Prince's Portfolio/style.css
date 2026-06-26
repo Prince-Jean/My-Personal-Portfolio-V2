@@ -110,12 +110,12 @@ nav {
     color: white;
 }
 
-#name-div:hover {
+/*#name-div:hover {
     transform: translate(0);
     box-shadow: 0 0 rgba(34, 34, 34, 0);
     background-color: rgba(255, 255, 255, 0.065);
     color: white;
-}
+}*/
 
 #profile-pic {
     transition: 300ms;
@@ -157,12 +157,12 @@ nav {
     box-shadow: 0 5px rgb(80, 80, 80); 
 }
 
-.prof-desc:hover {
+/*.prof-desc:hover {
     transform: translateY(5px);
     box-shadow: 0 0 rgba(34, 34, 34, 0);
     background-color: rgba(188, 188, 188);
     color: rgb(23, 23, 23);
-}
+} */
 
 #low {
     display: flex;
@@ -182,10 +182,10 @@ nav {
     box-shadow: 0 5px rgb(80, 80, 80);
 }
 
-#low-left:hover {
+/*#low-left:hover {
     transform: translate(0);
     box-shadow: 0 0 rgba(34, 34, 34, 0);
-}
+}*/
 
 #low-left #click {
     margin-left: 30px;
@@ -605,12 +605,12 @@ input[type=submit]:active {
     font-size: 12px;
 }
 
-#contact-left-mid h3:hover {
+/*#contact-left-mid h3:hover {
     box-shadow: 0 0 rgba(10, 10, 10, 0);
     background-color: rgba(255, 255, 255, 0.061);
     color: white;
     transform: translate(0);
-}
+}*/
 
 .contact-h1-2 {
     /* border: 2px solid rgb(4, 113, 113); */
@@ -625,12 +625,12 @@ input[type=submit]:active {
     font-size: 14px;
 }
 
-.contact-h1-2:hover {
+/*.contact-h1-2:hover {
     box-shadow: 0 0 rgba(10, 10, 10, 0);
     background-color: cyan;
     color: black;
     transform: translate(0);
-}
+}*/
 
 #contact-icons {
     /* border: 2px solid rgb(174, 174, 174); */
@@ -643,10 +643,10 @@ input[type=submit]:active {
     text-align: center;
 }
 
-#contact-icons:hover {
+/*#contact-icons:hover {
     box-shadow: 0 0 rgba(10, 10, 10, 0);
     transform: translate(0);
-}
+}*/
 
 #contact-icons i {
     margin: 0 10px;
