@@ -18,12 +18,12 @@ const skillStackDesc = document.getElementById("s-t");
 
 function stack() {
     stackBtn.style.backgroundColor = "#050515";
-    stackBtn.style.color = "white";
+    stackBtn.style.color = "black";
     stackBtn.style.transform = "scale(1.05)";
     stackBtn.style.zIndex = "900";
 
     skillBtn.style.backgroundColor = "#050515";
-    skillBtn.style.color = "white";
+    skillBtn.style.color = "black";
     skillBtn.style.transform = "scale(1)";
     skillBtn.style.zIndex = "0";
 
@@ -82,12 +82,12 @@ function stack() {
 
 function skill() {
     stackBtn.style.backgroundColor = "#050515";
-    stackBtn.style.color = "white";
+    stackBtn.style.color = "black";
     stackBtn.style.transform = "scale(1)";
     stackBtn.style.zIndex = "0";
 
     skillBtn.style.backgroundColor = "#050515";
-    skillBtn.style.color = "white";
+    skillBtn.style.color = "black";
     skillBtn.style.transform = "scale(1.05)";
     skillBtn.style.zIndex = "900";
 
