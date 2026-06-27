@@ -49,7 +49,7 @@ nav .right-nav {
 
 nav .right-nav:hover {
     background-color: rgb(188, 188, 188);
-    color: rgb(23, 23, 23);
+    color: rgb(100, 100, 100);
     cursor: pointer;
 }
 
@@ -264,17 +264,20 @@ nav {
     text-align: center;
     background-color: #aeb4c2;
     cursor: pointer;
-    border-radius: 8px 8px 0 0;
+    /* border-radius: 8px 8px 0 0; */
 }
 
 #skill-stack #skill {
     border: 2px solid #aeb4c2;
+    box-shadow: 0 5px rgb(50, 50, 50);
     border-bottom: 5px solid #aeb4c2;
     border-left: 3px solid #aeb4c2;
     transform: scale(1.05);
     background-color: #050515;
-    color: white;
+    color: black;
     z-index: 900;
+    background: linear-gradient(to top, #aeb4c2, #5d6067);
+    border-radius: 5px;
 }
 
 #skill-stack #stack {
@@ -282,10 +285,14 @@ nav {
     border-bottom: 5px solid #aeb4c2;
     border-right: 3px solid #aeb4c2;
     background-color: #050515;
-    color: white;
+    color: black;
+    background: linear-gradient(to top, #aeb4c2, #5d6067);
+    border-radius: 5px;
+    box-shadow: 0 5px rgb(50, 50, 50);
 }
 
 #s-t {
+    border-top: 2px solid #050515;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -435,9 +442,11 @@ nav {
 }
 
 .carousel-btn {
-    color: white;
-    background-color: #050515;
-    border: 2px solid rgb(174, 174, 174);
+    color: black;
+    background-color: white;
+    border: none;
+    /* background-color: #050515; */
+    /* border: 2px solid rgb(174, 174, 174); */
     font-size: 1.5rem;
     padding: 15px 20px;
     cursor: pointer;
@@ -448,12 +457,14 @@ nav {
 }
 
 .carousel-btn:hover {
-    background-color: rgba(255, 255, 255, 0.192);
+    /* background-color: rgba(255, 255, 255, 0.192); */
+    /* color: rgb(188, 188, 188); */
+    color: rgb(100, 100, 100);
 }
 
 .carousel-btn:active {
     background-color: rgba(255, 255, 255, 0.323);
-    color: white;
+    /* color: white; */
     transform: translate(0);
     box-shadow: 0 0 rgba(0,0,0,0);
 }
@@ -464,7 +475,7 @@ nav {
 }
 
 #proj-certs a {
-    border: 2px solid rgb(174, 174, 174);
+    /* border: 2px solid rgb(174, 174, 174); */
     margin: 0 50px;
     border-radius: 5px;
     padding: 20px;
@@ -473,19 +484,21 @@ nav {
     box-shadow: 0 5px rgb(80, 80, 80);
     transition: 300ms;
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 #proj-certs a:hover {
-    background-color: rgba(255, 255, 255, 0.061);
+    /* background-color: rgba(255, 255, 255, 0.061); */
     cursor: pointer;
+    color: rgb(100, 100, 100);
 }
 
 #proj-certs a:active {
     transform: translate(0);
     box-shadow: 0 0 rgba(0, 0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.323);
-    color: white;
+    /* background-color: rgba(255, 255, 255, 0.323); */
+    /* color: white; */
 }
 
 #outermost-contact-div {
@@ -561,7 +574,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: rgb(196, 251, 85);
-    color: rgb(37, 37, 37);
+    /* color: rgb(37, 37, 37); */
+    color: rgb(100, 100, 100);
 }
 
 input[type=submit]:active {
